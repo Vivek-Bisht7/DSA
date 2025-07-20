@@ -1,3 +1,5 @@
+/// Completely implementation based problem.. to implement it I have use 4 pointers indicating the corners of the 2d array and then we thorough dry I have figured out that how to shrink the sprial and when to stop
+
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
         int m = matrix.length , n = matrix[0].length;
